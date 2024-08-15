@@ -5,8 +5,8 @@ StayEase is a platform for seamless accommodation booking experiences. Designed 
 # Key Features
 - User-Friendly Interface: An intuitive design that simplifies the booking and listing process for users.
 - Advanced Search and Filtering: Helps users find the perfect accommodation by filtering properties based on their preferences and requirements.
-- Secure Transactions: Ensures all transactions are encrypted and secure, providing peace of mind to both hosts and guests.
 - Responsive Design: Optimized for all devices, offering a consistent experience on desktops, tablets, and smartphones.
+- User Authentication: Provides a secure authentication system to protect user data and ensure privacy.
 
 # Technologies Used
 - Frontend: Built using React.js and TailWind for a sleek, responsive design.
