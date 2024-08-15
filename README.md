@@ -9,7 +9,7 @@ Secure Transactions: Ensures all transactions are encrypted and secure, providin
 Responsive Design: Optimized for all devices, offering a consistent experience on desktops, tablets, and smartphones.
 
 # Technologies Used
-#Frontend: Built using React.js and TailWind for a sleek, responsive design.
-#Backend: Powered by Node.js and Express.js, ensuring a robust and scalable server-side solution.
-#Database: Utilizes MongoDB for efficient data storage and retrieval.
-#Image Storage: Uses Firebase for secure and reliable image storage and management.
+- Frontend: Built using React.js and TailWind for a sleek, responsive design.
+- Backend: Powered by Node.js and Express.js, ensuring a robust and scalable server-side solution.
+- Database: Utilizes MongoDB for efficient data storage and retrieval.
+- Image Storage: Uses Firebase for secure and reliable image storage and management.
