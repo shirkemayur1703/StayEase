@@ -2,7 +2,7 @@ import { FaSearch } from 'react-icons/fa';
 import { Link, useNavigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { useEffect, useState } from 'react';
-
+import { MdRealEstateAgent } from "react-icons/md";
 export default function Header() {
   const { currentUser } = useSelector((state) => state.user);
   const [searchTerm, setSearchTerm] = useState('');
@@ -24,12 +24,12 @@ export default function Header() {
   }, [location.search]);
   return (
     <header className='bg-slate-200 shadow-md' style={{backgroundColor:'#fc8f7e'}}>
+      
       <div className='flex justify-between items-center max-w-6xl mx-auto p-3'>
-        <Link to='/'>
-          <h1 className='font-bold text-sm sm:text-xl flex flex-wrap'>
-            <span className='text-black-500' >Stay</span>
-            <span className='text-black-700' >Ease</span>
-          </h1>
+      
+      <Link to='/' className='flex items-center'>
+          <MdRealEstateAgent className='text-2xl' />
+          <h1 className='font-bold text-sm sm:text-xl text-black-700 ml-2'>StayEase</h1>
         </Link>
         <form
           onSubmit={handleSubmit}

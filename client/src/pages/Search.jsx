@@ -142,6 +142,7 @@ export default function Search() {
               className='border rounded-lg p-3 w-full'
               value={sidebardata.searchTerm}
               onChange={handleChange}
+              
             />
           </div>
           <div className='flex gap-2 flex-wrap items-center'>

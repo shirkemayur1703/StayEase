@@ -52,6 +52,7 @@ export default function Contact({ listing }) {
           <button
             onClick={handleSendMessage}
             className='bg-slate-700 text-white text-center p-3 uppercase rounded-lg hover:opacity-95'
+            style={{backgroundColor:'#FF735C'}}
           >
             Send Message          
           </button>

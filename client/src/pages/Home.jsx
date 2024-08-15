@@ -61,7 +61,7 @@ export default function Home() {
         </div>
         <Link
         to={'/search'}
-        className='inline-flex items-center justify-center w-36 h-14 text-xl font-bold text-white rounded-lg shadow-md hover:bg-opacity-80 focus:outline-none focus:ring-2 focus:ring-blue-500'
+        className='inline-flex items-center justify-center w-36 h-14 text-xl text-white rounded-md shadow-md hover:bg-opacity-80 focus:outline-none focus:ring-2 focus:ring-blue-500'
         style={{ backgroundColor: '#FF735C' }} // Background color
       >
         Explore Now
