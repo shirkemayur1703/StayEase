@@ -1,4 +1,5 @@
-StayEase
+# StayEase
+
 StayEase is a platform for seamless accommodation booking experiences. Designed with both hosts and guests in mind, StayEase offers an intuitive interface for listing and booking properties. The platform leverages modern web development technologies to provide a user-friendly, efficient, and secure booking process. 
 
 Key Features
