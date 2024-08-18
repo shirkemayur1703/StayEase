@@ -32,10 +32,7 @@ app.use('/api/listing', listingRouter);
 // Serve static files
 app.use(express.static(path.join(__dirname, 'client', 'dist')));
 
-// Catch-all route for frontend
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'client', 'dist', 'index.html'));
-});
+
 
 // Error Handling Middleware
 app.use((err, req, res, next) => {
